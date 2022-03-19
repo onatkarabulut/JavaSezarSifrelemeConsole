@@ -27,7 +27,7 @@ public class Main {
                         tut %= 26;
                         System.out.print((char) alfabe[tut]);
                     } else {
-                        tut = j + otele;
+                        tut = j + otele; 
                         if (tut > 51) {
                             tut = (tut % 52) + 26;
                             System.out.print((char) alfabe[tut]);
@@ -102,15 +102,15 @@ public class Main {
 
 /*
  * 
- * Scanner scan=new Scanner (System.in) à Bu satırda Scanner sınıfında scan
+ * Scanner scan=new Scanner (System.in) Bu satırda Scanner sınıfında scan
  * adında bir nesne üretiyoruz.
- * String ad=scan.nextLine() à Bu satırda scan nesnesine nextLine komutu ile
+ * String ad=scan.nextLine() Bu satırda scan nesnesine nextLine komutu ile
  * metin türündeki girilen veriyi ad değişkenine atıyoruz.
- * int otele=scan.nextInt() à Bu satırda scan nesnesine nextLine komutu ile tam
+ * int otele=scan.nextInt() Bu satırda scan nesnesine nextLine komutu ile tam
  * sayı türünde girilen anahtar değerini otele değişkenine atıyoruz.
- * char [] alfabe=new char [52] à Bu satırda 52 harflik alfabe adında bir
+ * char [] alfabe=new char [52] Bu satırda 52 harflik alfabe adında bir
  * karakter türünde bir dizi oluşturuyoruz.
- * (ad.charAt(i)==alfabe[j]) à Burada charAt komutu ile ad değişkenindeki
+ * (ad.charAt(i)==alfabe[j]) Burada charAt komutu ile ad değişkenindeki
  * belirtilen indexdeki karakteri döndürür.
  * 
  */
